@@ -1,0 +1,49 @@
+baseURL = "https://hirethesepeople.com/"
+languageCode = "en-us"
+title = "Hire These People"
+theme = "mixedpaper"
+
+paginate = 3
+summaryLength = 100
+pygmentsUseClasses = true # enable theme-defined highlight style
+
+[taxonomies]
+tag = "tags"
+
+[author]
+name = "Hiring"
+
+[params]
+# Blog description at the top of the homepage. Supports markdown.
+description = "Mixedpaper is a minimalist Hugo theme, perfect for writers and bloggers."
+showReadMore = false
+mainSections = [
+	"talent",
+]
+# paginate of archives, tags and categories
+listPaginate = 20
+postLicense = ""
+
+
+# Privacy configurations: https://gohugo.io/about/hugo-and-gdpr/
+[privacy]
+[privacy.disqus]
+disable = false
+[privacy.googleAnalytics]
+anonymizeIP = true
+disable = false
+respectDoNotTrack = false
+useSessionStorage = false
+[privacy.instagram]
+disable = false
+simple = false
+[privacy.twitter]
+disable = false
+enableDNT = false
+simple = false
+[privacy.vimeo]
+disable = false
+simple = false
+[privacy.youtube]
+disable = false
+privacyEnhanced = true
