@@ -24,6 +24,17 @@ mainSections = [
 listPaginate = 20
 postLicense = ""
 
+[[menu.main]]
+name = "Information Technology"
+identifier = "it"
+url = "/information_technology/"
+weight = 1
+
+[[menu.main]]
+name = "Categories"
+identifier = "tags"
+url = "/tags/"
+weight = 2
 
 # Privacy configurations: https://gohugo.io/about/hugo-and-gdpr/
 [privacy]
