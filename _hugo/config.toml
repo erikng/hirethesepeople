@@ -8,7 +8,7 @@ summaryLength = 100
 pygmentsUseClasses = true # enable theme-defined highlight style
 
 [taxonomies]
-tag = "tags"
+tag = "categories"
 
 [author]
 name = "Hiring"
@@ -24,6 +24,7 @@ mainSections = [
 listPaginate = 20
 postLicense = ""
 
+# Menu links along the sidebar navigation.
 [[menu.main]]
 name = "Information Technology"
 identifier = "it"

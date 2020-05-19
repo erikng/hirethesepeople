@@ -1,7 +1,6 @@
 ---
 date: 2020-05-19
 type: section
-title: "Index"
 ---
 
 In this tough time, [HireThesePeople](https://hirethesepeople.com) is a website dedicated to showcasing the top talent in our industry and how to reach them.
