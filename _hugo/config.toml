@@ -1,41 +1,50 @@
 baseURL = "https://hirethesepeople.com/"
 languageCode = "en-us"
 title = "Hire These People"
-theme = "mixedpaper"
-
-paginate = 3
-summaryLength = 100
-pygmentsUseClasses = true # enable theme-defined highlight style
+theme = "ananke"
 
 [taxonomies]
-tag = "categories"
+  category = "companies"
+  tag = "roles"
+
+pygmentsUseClasses = true # enable theme-defined highlight style
 
 [author]
-name = "Hiring"
+name = "Hiring Manager"
+
+MetaDataFormat = "yaml"
+DefaultContentLanguage = "en"
+SectionPagesMenu = "main"
+Paginate = 200
+googleAnalytics = ""
+enableRobotsTXT = true
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
 
 [params]
-# Blog description at the top of the homepage. Supports markdown.
-description = "Mixedpaper is a minimalist Hugo theme, perfect for writers and bloggers."
-showReadMore = false
-mainSections = [
-	"talent",
-]
-# paginate of archives, tags and categories
-listPaginate = 20
-postLicense = ""
+  github = "https://github.com/erikng/hirethesepeople"
 
 # Menu links along the sidebar navigation.
 [[menu.main]]
-name = "Information Technology"
-identifier = "it"
-url = "/information_technology/"
+name = "Employees"
+identifier = "employees"
+url = "/employees/"
 weight = 1
 
 [[menu.main]]
-name = "Categories"
-identifier = "tags"
-url = "/tags/"
+identifier = "companies"
+name = "Companies"
+url = "/companies/"
 weight = 2
+
+[[menu.main]]
+identifier = "roles"
+name = "Roles"
+url = "/roles/"
+weight = 3
 
 # Privacy configurations: https://gohugo.io/about/hugo-and-gdpr/
 [privacy]

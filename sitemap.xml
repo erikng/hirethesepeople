@@ -5,15 +5,55 @@
   <url>
     <loc>https://hirethesepeople.com/</loc>
     <lastmod>2020-05-19T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://hirethesepeople.com/</loc>
+    <loc>https://hirethesepeople.com/companies/</loc>
     <lastmod>2020-05-19T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hirethesepeople.com/categories/</loc>
+    <loc>https://hirethesepeople.com/employees/</loc>
+    <lastmod>2020-05-19T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://hirethesepeople.com/roles/it-engineering/</loc>
+    <lastmod>2020-05-19T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://hirethesepeople.com/employees/madhulika_badanpet/</loc>
+    <lastmod>2020-05-19T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://hirethesepeople.com/roles/</loc>
+    <lastmod>2020-05-19T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://hirethesepeople.com/companies/uber/</loc>
+    <lastmod>2020-05-19T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://hirethesepeople.com/true/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
 </urlset>
