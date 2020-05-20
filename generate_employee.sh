@@ -45,33 +45,32 @@ read correct
 
 if [[ $correct == "y" ]]; then
   echo "Generating employee markdown page..."
-  
-  echo "---" >> "./content/employees/${first_lower}_${last_lower}.md"
-  echo "title: \"${first} ${last}\"" >> "./content/employees/${first_lower}_${last_lower}.md"
-  echo "date: \"${date}\"" >> "./content/employees/${first_lower}_${last_lower}.md"
-  echo "draft: false" >> "./content/employees/${first_lower}_${last_lower}.md"
-  echo "companies: [" >> "./content/employees/${first_lower}_${last_lower}.md"
-  echo -e "\t\t\"${company_lower}\"" >> "./content/employees/${first_lower}_${last_lower}.md"
-  echo "]" >> "./content/employees/${first_lower}_${last_lower}.md"
-  echo "roles: [" >> "./content/employees/${first_lower}_${last_lower}.md"
-  echo -e "\t\t\"${role}\"" >> "./content/employees/${first_lower}_${last_lower}.md"
-  echo "]" >> "./content/employees/${first_lower}_${last_lower}.md"
-  echo "type: \"post\"" >> "./content/employees/${first_lower}_${last_lower}.md"
-  echo "---" >> "./content/employees/${first_lower}_${last_lower}.md"
-  echo "" >> "./content/employees/${first_lower}_${last_lower}.md"
-  echo "## About me" >> "./content/employees/${first_lower}_${last_lower}.md"
-  echo "${about}" >> "./content/employees/${first_lower}_${last_lower}.md"
-  echo "" >> "./content/employees/${first_lower}_${last_lower}.md"
-  echo "## Experience" >> "./content/employees/${first_lower}_${last_lower}.md"
-  echo "${experience}" >> "./content/employees/${first_lower}_${last_lower}.md"
-  echo "" >> "./content/employees/${first_lower}_${last_lower}.md"
-  echo "## Contact Me" >> "./content/employees/${first_lower}_${last_lower}.md"
-  echo "[LinkedIn](${linkedin})" >> "./content/employees/${first_lower}_${last_lower}.md"
-  echo "[GitHub](${github})" >> "./content/employees/${first_lower}_${last_lower}.md"
-  echo "" >> "./content/employees/${first_lower}_${last_lower}.md"
+  employee_page="./content/employees/${first_lower}_${last_lower}.md"
+  echo "---" >> $employee_page
+  echo "title: \"${first} ${last}\"" >> $employee_page
+  echo "date: \"${date}\"" >> $employee_page
+  echo "draft: false" >> $employee_page
+  echo "companies: [" >> $employee_page
+  echo -e "\t\t\"${company_lower}\"" >> $employee_page
+  echo "]" >> $employee_page
+  echo "roles: [" >> $employee_page
+  echo -e "\t\t\"${role}\"" >> $employee_page
+  echo "]" >> $employee_page
+  echo "type: \"post\"" >> $employee_page
+  echo "---" >> $employee_page
+  echo "" >> $employee_page
+  echo "## About me" >> $employee_page
+  echo "${about}" >> $employee_page
+  echo "" >> $employee_page
+  echo "## Experience" >> $employee_page
+  echo "${experience}" >> $employee_page
+  echo "" >> $employee_page
+  echo "## Contact Me" >> $employee_page
+  echo "[LinkedIn](${linkedin})" >> $employee_page
+  echo "[GitHub](${github})" >> $employee_page
+  echo "" >> $employee_page
 
   echo "Employee markdown page has been generated at ./content/employees/${first_lower}_${last_lower}.md"
-  
 else
   echo "Something went wrong; try again."
 fi
