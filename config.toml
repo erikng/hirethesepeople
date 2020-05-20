@@ -2,6 +2,7 @@ baseURL = "https://hirethesepeople.com/"
 languageCode = "en-us"
 title = "Hire These People"
 theme = "ananke"
+publishDir = "docs"
 
 [taxonomies]
   category = "companies"
