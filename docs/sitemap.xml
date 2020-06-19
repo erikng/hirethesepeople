@@ -23,14 +23,21 @@
   </url>
   
   <url>
-    <loc>https://hirethesepeople.com/roles/it-engineering/</loc>
+    <loc>https://hirethesepeople.com/roles/engineer/</loc>
     <lastmod>2020-05-19T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hirethesepeople.com/employees/madhulika_badanpet/</loc>
+    <loc>https://hirethesepeople.com/companies/example/</loc>
+    <lastmod>2020-05-19T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://hirethesepeople.com/employees/firstname_lastname/</loc>
     <lastmod>2020-05-19T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -38,13 +45,6 @@
   
   <url>
     <loc>https://hirethesepeople.com/roles/</loc>
-    <lastmod>2020-05-19T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://hirethesepeople.com/companies/uber/</loc>
     <lastmod>2020-05-19T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
